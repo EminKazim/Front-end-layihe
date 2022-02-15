@@ -358,8 +358,8 @@ hr {
 }
 
 .header-main .login-top-right .cart-content img {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .header-main .login-top-right .cart-content .first {
@@ -372,6 +372,7 @@ hr {
   margin-top: 10px;
   padding-left: 36px;
   position: relative;
+  height: 76px;
 }
 
 .all-categories:hover .all-categories-content {
@@ -413,15 +414,16 @@ hr {
 
 .all-categories .all-categories-content {
   border: 1px solid rgba(151, 151, 151, 0.5);
-  margin-top: 10px;
+  margin-top: 25px;
   width: 280px;
   padding-left: 20px;
   padding-top: 20px;
   font-size: 14px;
   color: #2b2b2b;
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   display: none;
+  background-color: white;
 }
 
 .all-categories .all-categories-content .fruits-vegetables {
@@ -448,7 +450,7 @@ hr {
   top: -21px;
   left: 259px;
   height: 445px;
-  z-index: 1;
+  z-index: 100;
   display: none;
   width: 280px;
   padding-left: 20px;
@@ -512,11 +514,12 @@ hr {
   top: -141px;
   left: 259px;
   height: 485px;
-  z-index: 1;
+  z-index: 100;
   display: none;
   width: 280px;
   padding-left: 20px;
   padding-top: 20px;
+  background-color: white;
 }
 
 .all-categories .all-categories-content .beverages .beverages-content p {
@@ -627,7 +630,7 @@ hr {
 .home-dropdown .home-content {
   border: 1px solid rgba(139, 139, 139, 0.5);
   position: absolute;
-  top: 50px;
+  top: 60px;
   left: -20px;
   height: 200px;
   z-index: 100;
@@ -668,7 +671,7 @@ hr {
   position: absolute;
   display: none;
   z-index: 100;
-  width: 1519.5px;
+  width: 1553px;
   background-color: white;
   left: -585px;
   top: 40px;
@@ -758,5 +761,134 @@ hr {
 
 .contact-page a {
   font-size: 15px;
+}
+
+#carousel .carousel .carousel-item {
+  position: relative;
+}
+
+#carousel .carousel .carousel-item .first {
+  color: #2b2b2b;
+  top: 50px;
+  left: -400px;
+  position: absolute;
+}
+
+#carousel .carousel .carousel-item .first .offer {
+  font-size: 14px;
+}
+
+#carousel .carousel .carousel-item .first .offer b {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 184, 83, 0.2)), to(rgba(32, 55, 88, 0)));
+  background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+  color: #038e42;
+  border-radius: 3.125rem;
+  font-size: 20px;
+}
+
+#carousel .carousel .carousel-item .first h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#carousel .carousel .carousel-item .first .price {
+  font-size: 38px;
+  color: #d51243;
+}
+
+#carousel .carousel .carousel-item .first button {
+  border: none;
+  border-radius: 3.125rem;
+  background-color: #2bbef9;
+  color: white;
+  height: 40px;
+  width: 133px;
+}
+
+#carousel .carousel .carousel-item .second {
+  color: #2b2b2b;
+  top: 50px;
+  left: -400px;
+  position: absolute;
+}
+
+#carousel .carousel .carousel-item .second .offer {
+  font-size: 14px;
+}
+
+#carousel .carousel .carousel-item .second .offer b {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 184, 83, 0.2)), to(rgba(32, 55, 88, 0)));
+  background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+  color: #038e42;
+  border-radius: 3.125rem;
+  font-size: 20px;
+}
+
+#carousel .carousel .carousel-item .second h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#carousel .carousel .carousel-item .second .price {
+  font-size: 38px;
+  color: #d51243;
+}
+
+#carousel .carousel .carousel-item .second button {
+  border: none;
+  border-radius: 3.125rem;
+  background-color: #2bbef9;
+  color: white;
+  height: 40px;
+  width: 133px;
+}
+
+#item-categories .category {
+  width: 20%;
+  padding: 0;
+}
+
+#item-categories .item-categories {
+  height: 290px;
+}
+
+#item-categories .card {
+  height: 145px;
+}
+
+#item-categories .card .card-body {
+  margin-top: 25px;
+  width: 140px;
+  cursor: pointer;
+}
+
+#item-categories .card .card-body p {
+  opacity: 0.8;
+}
+
+#item-categories .card img {
+  height: 91px;
+  width: 100px;
+  margin-top: 26px;
+}
+
+#item-categories .first-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 290px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#item-categories .first-card img {
+  height: 212px;
+  width: 262px;
+}
+
+#item-categories .f-category-body {
+  text-align: center;
+}
+
+#item-categories .f-category-body p {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=home.css.map */
