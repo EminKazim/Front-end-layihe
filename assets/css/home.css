@@ -1343,6 +1343,18 @@ hr {
   margin-top: 120px;
 }
 
+#best-sellers .owl-dots {
+  display: none;
+}
+
+#best-sellers .owl-prev {
+  font-size: 40px;
+}
+
+#best-sellers .owl-next {
+  font-size: 40px;
+}
+
 #best-sellers .best-seller-title h4 {
   font-weight: 600;
   font-size: 20px;
@@ -1374,11 +1386,457 @@ hr {
   height: 40px;
   width: 143px;
   text-align: left;
-  margin-top: -20px;
+  margin-top: -60px !important;
 }
 
 #best-sellers .view-all-btn button i {
   float: end;
+}
+
+#best-sellers .card {
+  height: 390px;
+}
+
+#best-sellers .card img {
+  margin-top: 10px;
+  width: 70%;
+  margin-left: 10%;
+}
+
+#best-sellers .card .card-body .first-card-content {
+  width: 210px;
+}
+
+#best-sellers .card .card-body .first-card-content p {
+  color: #00b863;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#best-sellers .card .card-body .first-card-content a {
+  font-weight: 500;
+}
+
+#best-sellers .card .card-body .card-star {
+  font-size: 11px;
+}
+
+#best-sellers .card .card-body .card-star span {
+  color: rgba(0, 0, 0, 0.125);
+}
+
+#best-sellers .card .card-body .card-star p {
+  display: inline;
+}
+
+#best-sellers .card .card-body .card-star .checked {
+  color: orange;
+}
+
+#best-sellers .card .card-body .card-star .add-to-cart-btn {
+  margin-top: 30px;
+}
+
+#best-sellers .card .card-body .card-star .add-to-cart-btn a {
+  margin-left: 16%;
+  width: 80px;
+}
+
+#best-sellers .card .card-body .card-product-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+}
+
+#best-sellers .card .card-body .card-product-price del {
+  font-weight: 550;
+  opacity: 0.3;
+  font-size: 16px;
+}
+
+#best-sellers .card .card-body .card-product-price p {
+  margin-left: 14px;
+  font-weight: 540;
+  color: #ed174a;
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+#best-sellers .card .card-body .card-product-price .av {
+  margin-left: 0;
+}
+
+#best-sellers .card .wishlist-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  position: absolute;
+  right: 20px;
+  top: 15%;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+}
+
+#best-sellers .card .wishlist-icon i {
+  margin-top: 11px;
+}
+
+#best-sellers .card .wishlist-icon:hover {
+  background-color: white;
+  color: #ed174a;
+}
+
+#best-sellers .card .arrows-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  position: absolute;
+  right: 20px;
+  top: 3%;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+}
+
+#best-sellers .card .arrows-icon i {
+  margin-top: 17px;
+}
+
+#best-sellers .card .arrows-icon:hover {
+  background-color: white;
+  color: #2bbef9;
+}
+
+#best-sellers .card:hover {
+  position: absolute;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#best-sellers .card:hover .wishlist-icon {
+  display: block;
+}
+
+#best-sellers .card:hover .arrows-icon {
+  display: block;
+}
+
+#best-sellers .discount {
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9 !important;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 550;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#best-sellers .discount p {
+  padding-top: 3px;
+}
+
+.save {
+  height: 80px;
+  background-color: #fbeacf;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.save h4 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 32%;
+  left: 22%;
+}
+
+#second-product-container {
+  margin-top: 50px;
+}
+
+#second-product-container .second-product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#second-product-container .second-product-container .product-card {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+
+#second-product-container .second-product-container .card {
+  height: 390px;
+}
+
+#second-product-container .second-product-container .card img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#second-product-container .second-product-container .card .card-body .first-card-content {
+  width: 210px;
+}
+
+#second-product-container .second-product-container .card .card-body .first-card-content p {
+  color: #00b863;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#second-product-container .second-product-container .card .card-body .first-card-content a {
+  font-weight: 500;
+}
+
+#second-product-container .second-product-container .card .card-body .card-star {
+  font-size: 11px;
+}
+
+#second-product-container .second-product-container .card .card-body .card-star span {
+  color: rgba(0, 0, 0, 0.125);
+}
+
+#second-product-container .second-product-container .card .card-body .card-star p {
+  display: inline;
+}
+
+#second-product-container .second-product-container .card .card-body .card-star .checked {
+  color: orange;
+}
+
+#second-product-container .second-product-container .card .card-body .card-star .add-to-cart-btn {
+  margin-top: 20px;
+}
+
+#second-product-container .second-product-container .card .card-body .card-star .add-to-cart-btn a {
+  margin-left: 16%;
+  width: 100px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#second-product-container .second-product-container .card .card-body .card-product-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+}
+
+#second-product-container .second-product-container .card .card-body .card-product-price del {
+  font-weight: 550;
+  opacity: 0.3;
+  font-size: 16px;
+}
+
+#second-product-container .second-product-container .card .card-body .card-product-price p {
+  margin-left: 14px;
+  font-weight: 540;
+  color: #ed174a;
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+#second-product-container .second-product-container .card .card-body .card-product-price .av {
+  margin-left: 0;
+}
+
+#second-product-container .second-product-container .card .wishlist-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  position: absolute;
+  right: 20px;
+  top: 15%;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+}
+
+#second-product-container .second-product-container .card .wishlist-icon i {
+  margin-top: 11px;
+}
+
+#second-product-container .second-product-container .card .wishlist-icon:hover {
+  background-color: white;
+  color: #ed174a;
+}
+
+#second-product-container .second-product-container .card .arrows-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  position: absolute;
+  right: 20px;
+  top: 3%;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+}
+
+#second-product-container .second-product-container .card .arrows-icon i {
+  margin-top: 17px;
+}
+
+#second-product-container .second-product-container .card .arrows-icon:hover {
+  background-color: white;
+  color: #2bbef9;
+  width: 20%;
+}
+
+#second-product-container .second-product-container .card .active {
+  opacity: 0;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+#second-product-container .second-product-container .card:hover {
+  height: 450px;
+  position: absolute;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#second-product-container .second-product-container .card:hover .wishlist-icon {
+  display: block;
+}
+
+#second-product-container .second-product-container .card:hover .active {
+  opacity: 1;
+}
+
+#second-product-container .second-product-container .card:hover .arrows-icon {
+  display: block;
+}
+
+#second-product-container .second-product-container .discount {
+  width: 50px;
+  height: 25px;
+  background-color: #2bbef9 !important;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 550;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#second-product-container .second-product-container .discount p {
+  padding-top: 3px;
+}
+
+#best-category .img-wrapper {
+  position: relative;
+}
+
+#best-category .img-wrapper .img {
+  height: 219px;
+  width: 370px;
+}
+
+#best-category .img-wrapper .img img {
+  height: 219px;
+  width: 370px;
+  border-radius: 8px;
+}
+
+#best-category .img-wrapper .text {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+#best-category .img-wrapper .text .discount {
+  color: #00b853;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+#best-category .img-wrapper .text .name {
+  color: #3e445a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -.8px;
+}
+
+#best-category .img-wrapper .text .first {
+  color: #9b9bb4;
+  font-size: .75rem;
+}
+
+#best-category .img-wrapper .text button {
+  font-size: .75rem;
+  height: 2.125rem;
+  border-radius: 1.875rem !important;
+  width: 100px;
+  background-color: #c2c2d3;
+  color: white;
+  border: none;
+}
+
+#top-category .content img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#top-category .content .first {
+  font-size: .8125rem;
+  font-weight: 600;
+  color: #9b9bb4;
+}
+
+#top-category .content a {
+  color: #202435;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#top-category .content .date {
+  font-size: 14px;
+  color: #71778e;
+  font-weight: 500;
+}
+
+#top-category .content .comment {
+  font-weight: 500;
+  font-size: 14px;
+  color: #202435;
+  padding-left: 10px;
+}
+
+#top-category .content .from {
+  font-weight: 500;
+  font-size: 14px;
+  color: #202435;
+  padding-left: 10px;
+}
+
+#top-category .content .from span {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #71778e;
+  font-size: 14px;
 }
 
 .coupon {
@@ -1391,6 +1849,7 @@ hr {
 .coupon img {
   position: absolute;
   bottom: 0%;
+  right: 50px;
 }
 
 .coupon .content {
@@ -1410,7 +1869,7 @@ hr {
 .coupon .content p {
   padding-top: 5px;
   color: gray;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
 }
 
@@ -1424,25 +1883,27 @@ hr {
 
 .coupon .content .form i {
   position: absolute;
-  top: 28%;
+  top: 36%;
   left: -7.5%;
-  color: gray;
+  opacity: 0.3;
+  color: black;
   font-size: 25px;
 }
 
 .coupon .content .form .input {
-  width: 470px;
-  height: 70px;
+  width: 540px;
+  height: 65px;
   border-radius: 4px;
   border: none;
   text-align: center;
   margin-left: -50px;
   outline: none;
+  margin-top: 10px;
 }
 
 .coupon .content .form .btn {
   right: 1%;
-  top: 10%;
+  top: 18%;
   position: absolute;
   height: 55px;
   width: 95px;
@@ -1490,7 +1951,8 @@ hr {
 }
 
 .footer ul a {
-  text-decoration: none;
+  font-weight: 400;
+  line-height: 19.5px;
   color: #71778e;
 }
 
